@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ARM WELFERE</title>
+<style type="text/css">
+body {
+font-family: Arial, Verdana, sans-serif;
+font-size: 94%;
+color: #666;
+background-color: #f8f8f8;}
+li {
+list-style-image: url("images/icon-plus.png");
+line-height: 1.6em;}
+table {
+border-spacing: 0px;}
+th, td {
+padding: 5px 30px 5px 10px;
+border-spacing: 0px;
+font-size: 92%;
+margin: 0px;}
+th, td {
+text-align: left;
+background-color: #e0e9f0;
+border-top: 1px solid #f1f8fe;
+border-bottom: 1px solid #cbd2d8;
+border-right: 1px solid #cbd2d8;}
+tr.head th {
+color: #fff;
+background-color: #749abe;
+border-bottom: 2px solid green;
+border-right: 1px solid #749abe;
+border-top: 2px solid #90b4d6;
+text-align: center;
+text-shadow: -2px -2px 1px #666;
+letter-spacing: 0.15em;}
+td {
+text-shadow: 1px 1px 1px #fff;}
+tr.even td, tr.even th {
+background-color: #e8eff5;}
+tr.head th:first-child {
+-webkit-border-top-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+border-top-left-radius: 5px;}
+tr.head th:last-child {
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topright: 5px;
+border-top-right-radius: 5px;}
+fieldset {
+width: 320px;
+margin-top: 20px;
+border: 1px solid #d6d6d6;
+background-color: #fffff;
+line-height: 1.6em;}
+legend {
+font-style:italic;
+color:purple;}
+input[type="text"] {
+width: 135px;
+border: 1px solid #d6d6d6;
+padding: 2px;
+outline: none;}
+input[type="text"]:focus,
+input[type="text"]:hover {
+background-color: white;
+border: 1px solid #999;}
+input[type="submit"] {
+border: 1px solid #006633;
+background-color: #009966;
+color: #FFFFFF;
+border-radius: 5px;
+padding: 5px;
+margin-top: 10px;}
+input[type="submit"]:hover {
+border: 1px solid #006633;
+background-color:lightgrey;
+color: #FFFFFF;
+cursor: pointer;}
+.title {
+float: left;
+width: 145px;
+clear: left;}
+.submit {
+width: 295px;
+text-align: right;}
+</style>
+</head>
+<body>
+<h1>ARM WELFERE</h1>
+<p>We will be incresed a number of ARM WELFERE
+for developed our welfere socity.</p>
+<p>Please note that the following semenar are free for all people:</p>
+<ul>
+<li>Economic development</li>
+<li>Comunication Perspective</li>
+<li>Welfere Organization</li>
+</ul>
+<table>
+<tr class="head">
+<th>Title</th>
+<th>Karachi,Pakistan</th>
+<th>Islamabad,Pakistan</th>
+<th>Lahore,Pakistan</th>
+</tr>
+<tr class="even">
+<th>Economic development</th>
+<td>Sun, 29 May 2016<br />1pm - 5pm</td>
+<td>Sun, 5 June 2016<br />1pm - 5pm</td>
+<td>Sun, 12 June 2016<br />1pm - 5pm</td>
+</tr>
+<tr class="even">
+<th>Comunication Perspective</th>
+<td>Sun, 19 June 2016<br />1pm - 5pm</td>
+<td>Sun, 26 June 2016<br />1pm - 5pm</td>
+<td>Sun, 3 July 2016<br />1pm - 5pm</td>
+</tr>
+<tr class="even">
+<th>Welfere Organization</th>
+<td>Sun, 10 July 2016<br />1pm - 5pm</td>
+<td>Sun, 17 July 2016<br />1pm - 5pm</td>
+<td>Sun, 24 July 2016<br />1pm - 5pm</td>
+</tr>
+
+
+</table>
+<form action="Regestration.html" method="get">
+<fieldset>
+<legend><h4>Register your interest</h4></legend>
+<h4><p><label class="title" for="name">Your name:</label>
+<input type="text" name="name" id="name" required="required"/><br />
+<label class="title" for="email">Your email:</label>
+<input type="email" name="email" id="email" required="required"/></p>
+<p><label for="location" class="title">Your closest center:</label>
+<select name="location" id="location">
+<option value="Ka">Karachi,Pakistan</option>
+<option value="Is">Islamabad,Pakistan</option>
+<option value="La">Lahore,Pakistan</option>
+</select></p></h4>
+<h4><span class="title">Are you a member?</span></h4>
+<label><input type="radio" name="member" value="yes" required="required"/> Yes</label>
+<label><input type="radio" name="member" value="no" required="required"/> No</label></p>
+</fieldset>
+<div class="submit"><input type="submit" value="Register" /></div>
+</form>
+</body>
+</html>
